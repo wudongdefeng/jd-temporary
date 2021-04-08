@@ -19,10 +19,13 @@ wudongdefeng
 # 库地址:https://github.com/wudongdefeng/jd-temporary
 scripts_base_url_1=https://ghproxy.com/https://raw.githubusercontent.com/wudongdefeng/jd-temporary/main/
 my_scripts_list_1="
+i-chenzhe-z_xmf.js
+monk_inter_shop_sign.js
+monk_shop_follow_sku.js
+monk_shop_lottery.js
+monk_skyworth.js
 monk-coder_monk_pasture.js
 monk-coder_z_asus_iqiyi.js
-monk_skyworth.js
-i-chenzhe-z_xmf.js
 "
 
 
