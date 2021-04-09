@@ -36,7 +36,6 @@ z_super5g.js
 z_unionPoster.js
 z_wish.js
 z_xmf.js
-z_getFanslove.js
 z_grassy.js
 z_lenovo.js
 z_marketLottery.js
