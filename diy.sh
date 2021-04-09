@@ -26,20 +26,10 @@ monk_shop_lottery.js
 monk_skyworth.js
 monk-coder_monk_pasture.js
 monk-coder_z_asus_iqiyi.js
-z_mgold.js
-z_mother_jump.js
-z_oneplus.js
-z_shake.js
-z_shakeBean.js
-z_sister.js
 z_super5g.js
-z_unionPoster.js
-z_wish.js
+
 z_xmf.js
-z_grassy.js
-z_lenovo.js
-z_marketLottery.js
-z_entertainment.js
+
 z_fanslove.js
 
 "
