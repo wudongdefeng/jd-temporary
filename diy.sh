@@ -27,7 +27,8 @@ monk_skyworth.js
 monk-coder_monk_pasture.js
 monk-coder_z_asus_iqiyi.js
 z_super5g.js
-
+jd_zjd.js
+jd_zjd_tuan.js
 z_xmf.js
 
 z_fanslove.js
