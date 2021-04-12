@@ -77,7 +77,7 @@ do
 	  if [ -z "${script_date}" ]; then
 	    cron_min=$(rand 1 59)
 	    cron_hour=$(rand 7 9)
-      [ $(grep -c "$croname" ${ConfigDir}/crontab.list) -eq 0 ] && sed -i "/hangup/a${cron_min} ${cron_hour} * * * bash jd $croname"  ${ConfigDir}/crontab.list
+      [ $(grep -c "$croname" ${ConfigDir}/crontab.list) -eq 0 ] && sed -i "/hangup/a${cron_min} ${cron_hour} * * * bash /data/data/com.termux/files/home/storage/shared/jd/jd.sh $croname"  ${ConfigDir}/crontab.list
 	  else
 	    check_existing_cron=`grep -c "$croname" ${ConfigDir}/crontab.list`
 	    echo $name "开始添加定时..."
@@ -89,7 +89,7 @@ do
 	      	echo -e "检测到"$name"定时已存在开始替换...\n"
 	        grep -v "$croname" ${ConfigDir}/crontab.list > output.txt
 		      mv -f output.txt ${ConfigDir}/crontab.list
-		      sed -i "/hangup/a${script_date} bash jd $croname"  ${ConfigDir}/crontab.list
+		      sed -i "/hangup/a${script_date} bash /data/data/com.termux/files/home/storage/shared/jd/jd.sh $croname"  ${ConfigDir}/crontab.list
 	        echo -e "替换"$name"定时成功!!!"
 	      else
 	        echo -e "$name 存在定时,已选择不替换...\n"
