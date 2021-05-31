@@ -1196,7 +1196,7 @@ function tuanAward(activeId, tuanId, isTuanLeader = true) {
   })
 }
 
-function updateTuanIdsCDN(url = 'https://raw.githubusercontent.com/gitupdate/updateTeam/master/shareCodes/jd_updateFactoryTuanId.json') {
+function updateTuanIdsCDN(url = 'https://cdn.jsdelivr.net/gh/wudongdefeng/jd-temporary@main/jd_updateFactoryTuanId.json') {
   return new Promise(async resolve => {
     const options = {
       url: `${url}?${new Date()}`, "timeout": 10000, headers: {
