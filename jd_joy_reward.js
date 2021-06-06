@@ -111,7 +111,7 @@ cron "0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/hyzaw/script
         console.log(`当前积分 ${data.petCoin}\n`);
         console.log(`宠物等级 ${data.level}\n`);
         let saleInfoId = '', giftValue = '', extInfo = '', leftStock = 0, salePrice = 0;
-        let rewardNum = 0;
+        let rewardNum = 20;
         if ($.isNode() && process.env.JD_JOY_REWARD_NAME) {
           rewardNum = process.env.JD_JOY_REWARD_NAME * 1;
         } else if ($.getdata('joyRewardName')) {
