@@ -117,7 +117,7 @@ cron "0 0-16/8 * * *" script-path=https://raw.githubusercontent.com/hyzaw/script
         } else if ($.getdata('joyRewardName')) {
           if ($.getdata('joyRewardName') * 1 === 1) {
             //兼容之前的BoxJs设置
-            rewardNum = 0;
+            rewardNum = 20;
           } else {
             rewardNum = $.getdata('joyRewardName') * 1;
           }
