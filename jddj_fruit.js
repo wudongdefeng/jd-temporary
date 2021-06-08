@@ -8,16 +8,15 @@ cookie只要里面的deviceid_pdj_jd=xxx-xxx-xxx;o2o_m_h5_sid=xxx-xxx-xxx关键�
 boxjs订阅地址:https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json
 
 [task_local]
-10 0,8,11,17 * * * https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit.js
+10 0,3,8,11,17 * * * https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit.js
 
 [Script]
-cron "10 0,8,11,17 * * *" script-path=https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit.js,tag=京东到家果园任务
+cron "10 0,3,8,11,17 * * *" script-path=https://raw.githubusercontent.com/passerby-b/JDDJ/main/jddj_fruit.js,tag=京东到家果园任务
 
 */
 
 let isNotify = true;//是否通知,仅限nodejs
 let ckPath = './jddj_cookie.js';//ck路径,环境变量:JDDJ_CKPATH
-let shareCodes = '';//助力码,环境变量名:JDDJ_SHARECODES,示例:code1,code2
 
 const $ = new API("jddj_fruit");
 try {
