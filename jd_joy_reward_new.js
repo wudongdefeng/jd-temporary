@@ -524,7 +524,7 @@ let flag = true;
 function init() {
   return new Promise(resolve => {
     $.get({
-      url: `https://jdjoy.jd.com/common/gift/getBeanConfigs?reqSource=h5&invokeKey=NRp8OPxZMFXmGkaE`,
+      url: `https://jdjoy.jd.com/common/gift/getBeanConfigs?reqSource=h5&invokeKey=RtKLB8euDo7KwsO0`,
       headers: {
         'Host': 'jdjoy.jd.com',
         'accept': '*/*',
@@ -553,7 +553,7 @@ function exchange(beanId) {
   console.log('exchange()')
   return new Promise(resolve => {
     $.post({
-      url: `https://jdjoy.jd.com/common/gift/new/exchange?reqSource=h5&invokeKey=NRp8OPxZMFXmGkaE`,
+      url: `https://jdjoy.jd.com/common/gift/new/exchange?reqSource=h5&invokeKey=RtKLB8euDo7KwsO0`,
       headers: {
         "Host": "jdjoy.jd.com",
         "Accept-Language": "zh-cn",
