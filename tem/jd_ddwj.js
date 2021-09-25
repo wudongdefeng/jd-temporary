@@ -67,7 +67,7 @@ var hour = ''
 		});
 		return;
 	}
-  let res = await getAuthorShareCode('https://code.aliyun.com/wudongdefeng/updateteam/raw/master/shareCodes/')  
+  let res = await getAuthorShareCode('https://code.aliyun.com/wudongdefeng/updateteam/raw/master/shareCodes/ddwj.json')  
   $.shareCodes = [...(res || []), ...$.shareCodes]    
 	for (let i = 0; i < cookiesArr.length; i++) {
 		cookie = cookiesArr[i];
