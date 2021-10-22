@@ -108,7 +108,7 @@ $.shareCodesArr = [];
                                     }
 
                                 }
-                                await $.wait(8000)
+                                await $.wait(10000)
                                 for (var o = 0; o < tmp.length; o++) {
                                     if (tmp[o].status == 1) {
                                         conti = true
