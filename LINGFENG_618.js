@@ -109,7 +109,7 @@ function Run(LauchAPPName,IsSeparation,IsInvite,IsJoinMember) {
     sleep(2000);
     if(IsInvite == 1){
         //将京口令分段填入，只要里面的特征码即可，分不清什么是特征码的也可以整段放进来，注意用双引号和逗号隔开
-        Code=new Array("13:/热爱奇旅每天都能领红包！加油把红包都拿走，(F1DHo7x4QA) ，【猄マD○σδng】");//邀请码第一个是助力作者，第二个纯属举例，使用时建议删除
+        Code=new Array("19:/听我说 京东热爱奇旅 壹啓瓜分19億!，！D28nLACGvAFA！ ，【猄しD○ōδng】");//邀请码第一个是助力作者，第二个纯属举例，使用时建议删除
         RunTime=Code.length;
         console.info("共识别到"+RunTime+"个助力码");
         for(var i = 0; i < RunTime; i++){
